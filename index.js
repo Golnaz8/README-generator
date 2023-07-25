@@ -70,7 +70,7 @@ function writeToFile(fileName, data) {
 // A function to initialize app
 async function init() {
     
-        const fileName = "README.md";
+        const fileName = "README1.md";
         const userInput = await inquirer.prompt(questions);
         userInput.tableOfContents = userInput.tableOfContents.split(',').map((item) => item.trim());
         writeToFile(fileName, userInput);
