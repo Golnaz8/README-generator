@@ -13,39 +13,39 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a project description,the what, why and how of the project:',
+        message: 'Enter a brief project description,the what, why and how of the project:',
     },
     {
         type: 'input',
         name: 'tableOfContents',
         message: 'Enter the table of contents, please seperate them with comma:',
-        filter: (value) => value.split(',').map((item) => item.trim()),
+        filter: (word) => word.split(','),
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Enter the installation explanations:',
+        message: 'Enter what command should be run to install dependencies:',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Enter usage instructions:',
+        message: 'Enter what to know about using the repo:',
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Select a license:',
-        choices: ['MIT', 'GPL-3.0', 'Apache-2.0', 'MPL-2.0', 'ISC'],
+        message: 'Select which license your project has:',
+        choices: ['MIT', 'GPL-3.0', 'Apache-2.0', 'MPL-2.0', 'ISC', 'None'],
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'Enter contributing guidelines:',
+        message: 'Enter how to contribute:',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Enter tests instructions:',
+        message: 'Enter what command should be used to run tests:',
     },
     {
         type: 'input',

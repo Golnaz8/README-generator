@@ -26,6 +26,21 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ## Mock-Up
+This link is a video of the typical user flow through the application:
+https://drive.google.com/file/d/1ZZq_MlQ5btvjXpp_Jw6U3Rur0nW4c1g4/view
 
+
+## Installation
+To install necessary dependencies, run the following command:
+
+```
+npm i
+```
+
+## Questions
+If you have any question, feel free to contact through this email address:
+golnaz.brj@gmail.com
+
+---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
