@@ -19,7 +19,6 @@ const questions = [
         type: 'input',
         name: 'tableOfContents',
         message: 'Enter the table of contents, please seperate them with comma:',
-        filter: (word) => word.split(','),
     },
     {
         type: 'input',
@@ -73,6 +72,7 @@ async function init() {
     
         const fileName = "README.md";
         const userInput = await inquirer.prompt(questions);
+        userInput.tableOfContents = userInput.tableOfContents.split(',').map((item) => item.trim());
         writeToFile(fileName, userInput);
 }
     
