@@ -11,7 +11,9 @@
   * [installation](#installation)
   * [usage](#usage)
   * [license](#license)
+  * [contributing](#contributing)
   * [tests](#tests)
+  * [questions](#questions)
   
   ## Installation
 
@@ -31,7 +33,7 @@
   
   ## Contributing
 
-  conract us
+  contact us
 
   ## tests
 
